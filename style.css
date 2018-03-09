@@ -1,0 +1,22 @@
+body{
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+
+}
+
+.navlist{
+  background-color: black;
+
+
+}
+
+.navitem{
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+
+}
