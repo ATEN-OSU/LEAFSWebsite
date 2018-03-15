@@ -43,10 +43,6 @@ body{
   list-style: none;
   list-style-position: inside;
   float: left;
->>>>>>> master
-
-.navlist{
-  background-color: black;
 }
 
 .navitem{
@@ -57,16 +53,4 @@ body{
   padding-bottom: 5px;
   margin: 0px;
   color: white;
-<<<<<<< HEAD
-}
-
-.headingStyle1{
-  font: 60px helvetica;
-  font-weight: bolder;
-}
-
-.headingStyle2{
-  font: 38px palatino;
-=======
->>>>>>> master
 }
