@@ -31,8 +31,8 @@ body{
 }
 
 .navbar{
-  width: 100%;
   float: left;
+  width: 97.39%;
   margin: 0px;
   padding: 0px;
 
@@ -43,14 +43,14 @@ body{
   list-style: none;
   list-style-position: inside;
   float: left;
+  width: 100%;
 }
 
 .navitem{
   display: inline-block;
   padding-left:0px;
-  padding-right: 5px;
+  padding-right:5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 0px;
   color: white;
 }
