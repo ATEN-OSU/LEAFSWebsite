@@ -1,22 +1,57 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
 body{
-  background: url(background.jpg);
-  background-repeat: no-repeat;
-  background-clip: content-box;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background: url("./background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  opacity: 20%;
+}
+
+.h1{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.h2{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.navbar{
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 
 }
 
 .navlist{
   background-color: black;
-
+  list-style: none;
+  list-style-position: inside;
+  float: left;
 
 }
 
 .navitem{
   display: inline-block;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left:0px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
   color: white;
-
 }
