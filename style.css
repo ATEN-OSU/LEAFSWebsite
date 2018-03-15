@@ -54,3 +54,21 @@ body{
   padding-bottom: 5px;
   color: white;
 }
+
+.Mission{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: none;
+  background-color: #D73F09; /*Might need to change*/
+  color: white;
+}
+
+.p{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: none;
+  background-color: #D73F09; /*Might need to change*/
+  color: white;
+}
