@@ -8,7 +8,7 @@ body{
   padding: 0px;
   height: 100%;
   width: 100%;
-  background: url("./background.jpg") no-repeat center center fixed;
+  background: url("NewBackground.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,7 +43,10 @@ body{
   list-style: none;
   list-style-position: inside;
   float: left;
+>>>>>>> master
 
+.navlist{
+  background-color: black;
 }
 
 .navitem{
@@ -54,4 +57,16 @@ body{
   padding-bottom: 5px;
   margin: 0px;
   color: white;
+<<<<<<< HEAD
+}
+
+.headingStyle1{
+  font: 60px helvetica;
+  font-weight: bolder;
+}
+
+.headingStyle2{
+  font: 38px palatino;
+=======
+>>>>>>> master
 }
