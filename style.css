@@ -1,41 +1,32 @@
-html{
+html, body{
   margin: 0px;
-  padding: 0px;
-}
-
-body{
-  margin: 0px;
-  padding: 0px;
+  padding:0px;
   height: 100%;
   width: 100%;
-  background: url("NewBackground.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 20%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-.h1{
+.title-box{
+  background-color: white;
+}
+
+.title{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  float: left;
 }
 
-.h2{
+.subtitle{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  float: left;
 }
 
 .navbar{
-  float: left;
-  width: 97.39%;
+  width: 100%;
   margin: 0px;
   padding: 0px;
-
 }
 
 .navlist{
@@ -44,10 +35,13 @@ body{
   list-style-position: inside;
   float: left;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navitem{
   display: inline-block;
+  margin-left: 0px;
   padding-left:0px;
   padding-right:5px;
   padding-top: 5px;
@@ -55,16 +49,7 @@ body{
   color: white;
 }
 
-.Mission{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  float: none;
-  background-color: #D73F09; /*Might need to change*/
-  color: white;
-}
-
-.p{
+.intro{
   width: 100%;
   margin: 0px;
   padding: 0px;
