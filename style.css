@@ -21,12 +21,14 @@ html, body{
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 
 .navbar{
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 
 .navlist{
@@ -56,4 +58,8 @@ html, body{
   float: none;
   background-color: #D73F09; /*Might need to change*/
   color: white;
+}
+
+.body{
+  background-color: lightblue;
 }
