@@ -58,7 +58,3 @@ html, body{
   color: white;
   text-align: center;
 }
-
-.container{
-  background-image: image('background.jpg');
-}
