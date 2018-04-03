@@ -60,5 +60,5 @@ html, body{
 }
 
 .container{
-  background-image: image(background.jpg);
+  background-image: image('background.jpg');
 }
