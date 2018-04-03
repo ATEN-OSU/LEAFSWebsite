@@ -52,12 +52,13 @@ html, body{
 }
 
 .intro{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+  width: 80%;
+  margin: 100px;
+  padding: 10px;
   float: none;
   background-color: #D73F09; /*Might need to change*/
   color: white;
+  text-align: center;
 }
 
 .body{
