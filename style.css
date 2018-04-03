@@ -48,6 +48,9 @@ html, body{
   padding-bottom: 5px;
   color: white;
 }
+.container{
+  background-color: red;
+}
 
 .intro{
   width: 100%;
