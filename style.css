@@ -5,6 +5,9 @@ html, body{
   width: 100%;
   min-width: 100%;
   min-height: 100%;
+  background-image: url("Trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title-box{
@@ -21,6 +24,7 @@ html, body{
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 
 .navbar{
@@ -38,6 +42,8 @@ html, body{
   width: 100%;
   margin: 0px;
   padding: 0px;
+
+
 }
 
 .navitem{
@@ -48,6 +54,7 @@ html, body{
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
+
 }
 
 .intro{
