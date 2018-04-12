@@ -30,12 +30,8 @@ html, body{
 .navbar{
   width: 100%;
   margin: 0px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: black;
-    
-
-
+  padding: 0px;
+  color: white;
 }
 
 .navlist{
