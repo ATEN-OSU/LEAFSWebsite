@@ -48,12 +48,16 @@ html, body{
   padding-bottom: 5px;
   color: white;
 }
+
 .container{
-  background-color: red;
+  width:100%;
+  float: none;
+  height: auto;
 }
 
 .intro{
   width: 80%;
+  height: 50%;
   margin: 100px;
   padding: 10px;
   float: none;
