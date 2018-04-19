@@ -1,20 +1,11 @@
 html, body{
   margin: 0px;
   padding:0px;
-  height: 100%;
+  height: auto;
   width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.title-box{
-  background-color: white;
-}
-
-.title{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+  background-image: url("Trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subtitle{
@@ -23,39 +14,92 @@ html, body{
   padding: 0px;
 }
 
-.navbar{
+.navbar-box{
   width: 100%;
   margin: 0px;
   padding: 0px;
-  color: white;
+  background-color: black;
+  display: flex;
 }
 
-.navlist{
+.navlist-left{
   background-color: black;
   list-style: none;
   list-style-position: inside;
-  float: left;
-  width: 100%;
   margin: 0px;
   padding: 0px;
+  float:left;
 }
 
-.navitem{
+.navitem-l{
   display: inline-block;
   margin-left: 0px;
   padding-left:0px;
   padding-right:5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: white;
+}
+
+.navlist-right{
+  background-color: black;
+  list-style: none;
+  list-style-position: inside;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.navitem-r{
+  display: inline-block;
+  margin-left: 0px;
+  padding-left:0px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navlink{
+  text-decoration: none;
+  color:white;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+.navlink-title{
+  text-decoration: none;
+  color:white;
+  font-size: 50px;
+}
+
+.container{
+  width:100%;
+  float: none;
+  height: auto;
+  display: flex;
 }
 
 .intro{
-  width: 80%;
   margin: 100px;
   padding: 10px;
   float: none;
+  text-align: center;
   background-color: #D73F09; /*Might need to change*/
+}
+
+.missionStatement{
   color: white;
   text-align: center;
+  font-size: 40px;
+}
+
+.applyBtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
 }
