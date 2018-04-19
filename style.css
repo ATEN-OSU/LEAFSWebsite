@@ -17,11 +17,13 @@ html, body{
   padding: 0px;
 }
 
-.navbar-box{
+.navbar {
+  box-sizing: border-box;
   width: 100%;
   margin: 0px;
   padding: 0px;
   background-color: black;
+  padding: 3px 15px;
   display: flex;
 }
 
@@ -65,14 +67,14 @@ html, body{
 .navlink{
   text-decoration: none;
   color:white;
-  font-size: 36px;
+  font-size: 40px;
   vertical-align: middle;
 }
 
 .navlink-title{
   text-decoration: none;
   color:white;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .container{
@@ -83,7 +85,7 @@ html, body{
 }
 
 .intro{
-  margin: 100px;
+  margin: 50px 100px 100px 100px;
   padding: 10px;
   float: none;
   text-align: center;
@@ -92,7 +94,7 @@ html, body{
 .missionStatement{
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 24px;
 }
 
 .applyBtn {
