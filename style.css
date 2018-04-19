@@ -3,9 +3,12 @@ html, body{
   padding:0px;
   height: auto;
   width: 100%;
+  background-color: rgb(75, 75, 75);
+  font-family: 'Segoe UI', sans-serif;
+/*   
   background-image: url("Trees.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .subtitle{
@@ -62,7 +65,7 @@ html, body{
 .navlink{
   text-decoration: none;
   color:white;
-  font-size: 50px;
+  font-size: 36px;
   vertical-align: middle;
 }
 
@@ -84,7 +87,6 @@ html, body{
   padding: 10px;
   float: none;
   text-align: center;
-  background-color: #D73F09; /*Might need to change*/
 }
 
 .missionStatement{
