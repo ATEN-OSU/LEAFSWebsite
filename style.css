@@ -5,6 +5,9 @@ html, body{
   width: 100%;
   background-color: rgb(75, 75, 75);
   font-family: 'Segoe UI', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 .green-link {
@@ -81,20 +84,16 @@ html, body{
   font-size: 40px;
 }
 
-.container{
-  width:100%;
-  float: none;
-  height: auto;
-  display: flex;
-}
-
 #logo-main {
   width: 100%;
   max-width: 612px;
 }
 
-.intro{
+.main-content {
   margin: 50px 100px 100px 100px;
+}
+
+.intro {
   padding: 10px;
   float: none;
   text-align: center;
@@ -107,12 +106,17 @@ html, body{
 }
 
 .applyBtn {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.heading-titles {
+  font-size: 1.25em;
+  margin: 55px 0 5px 0;
 }
