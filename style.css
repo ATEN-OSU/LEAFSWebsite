@@ -81,7 +81,8 @@ html, body{
 .navlink-title{
   text-decoration: none;
   color:white;
-  font-size: 40px;
+  font-size: 50px;
+  vertical-align: middle;
 }
 
 #logo-main {
