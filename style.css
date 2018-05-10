@@ -120,3 +120,8 @@ html, body{
   font-size: 1.25em;
   margin: 55px 0 5px 0;
 }
+
+#about {
+  max-width: 600px;
+  margin: 0 auto;
+}
