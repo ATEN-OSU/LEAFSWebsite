@@ -122,7 +122,27 @@ html, body{
   margin: 55px 0 5px 0;
 }
 
-#about {
+#about{
   max-width: 600px;
   margin: 0 auto;
+}
+
+.container-reg-form{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+}
+
+.container-reg-video{
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}
+
+.list-left{
+  list-style-position: inside;
+  margin: 10px;
+  padding: 5px;
+  float:left;
 }
