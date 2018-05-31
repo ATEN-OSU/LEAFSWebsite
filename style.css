@@ -3,17 +3,11 @@ html, body{
   padding:0px;
   height: auto;
   width: 100%;
-<<<<<<< HEAD
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("background.jpg");
-=======
   background-color: rgb(75, 75, 75);
   font-family: 'Segoe UI', sans-serif;
   color: white;
   font-size: 18px;
   text-align: center;
->>>>>>> master
 }
 
 .green-link {
