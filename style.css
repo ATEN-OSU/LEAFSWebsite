@@ -5,10 +5,17 @@ html, body{
   width: 100%;
   background-color: rgb(75, 75, 75);
   font-family: 'Segoe UI', sans-serif;
-/*   
-  background-image: url("Trees.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.green-link {
+  color: #4CAF50;
+}
+
+.green-link:visited {
+  color: #4CAF50;
 }
 
 .subtitle{
@@ -74,18 +81,20 @@ html, body{
 .navlink-title{
   text-decoration: none;
   color:white;
-  font-size: 40px;
+  font-size: 50px;
+  vertical-align: middle;
 }
 
-.container{
-  width:100%;
-  float: none;
-  height: auto;
-  display: flex;
+#logo-main {
+  width: 100%;
+  max-width: 612px;
 }
 
-.intro{
+.main-content {
   margin: 50px 100px 100px 100px;
+}
+
+.intro {
   padding: 10px;
   float: none;
   text-align: center;
@@ -98,12 +107,42 @@ html, body{
 }
 
 .applyBtn {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.heading-titles {
+  font-size: 1.25em;
+  margin: 55px 0 5px 0;
+}
+
+#about{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-reg-form{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+}
+
+.container-reg-video{
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}
+
+.list-left{
+  list-style-position: inside;
+  margin: 10px;
+  padding: 5px;
+  float:left;
 }
