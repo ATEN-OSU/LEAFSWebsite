@@ -10,6 +10,18 @@ html, body{
   text-align: center;
 }
 
+.applyPage{
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  font-family: 'Segoe UI', sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
 .green-link {
   color: #4CAF50;
 }
@@ -90,6 +102,11 @@ html, body{
   max-width: 612px;
 }
 
+#team-picture {
+  width: 100%;
+  max-width: 612px;
+}
+
 .main-content {
   margin: 50px 100px 100px 100px;
 }
@@ -127,22 +144,27 @@ html, body{
   margin: 0 auto;
 }
 
-.container-reg-form{
-  color: white;
-  text-align: left;
-  font-size: 20px;
-  border: 1px solid whitesmoke;
-}
-
-.container-reg-video{
-  color: white;
-  text-align: left;
-  font-size: 18px;
-}
-
 .list-left{
   list-style-position: inside;
   margin: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
   padding: 5px;
   float:left;
+}
+
+.container-reg-form{
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container-reg-video{
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
 }
