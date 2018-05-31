@@ -1,21 +1,27 @@
 html, body{
   margin: 0px;
   padding:0px;
-  height: 100%;
+  height: auto;
   width: 100%;
+<<<<<<< HEAD
   min-width: 100%;
   min-height: 100%;
   background-image: url("background.jpg");
+=======
+  background-color: rgb(75, 75, 75);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+>>>>>>> master
 }
 
-.title-box{
-  background-color: white;
+.green-link {
+  color: #4CAF50;
 }
 
-.title{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+.green-link:visited {
+  color: #4CAF50;
 }
 
 .subtitle{
@@ -24,38 +30,125 @@ html, body{
   padding: 0px;
 }
 
-.navbar{
+.navbar {
+  box-sizing: border-box;
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: black;
+  padding: 3px 15px;
+  display: flex;
 }
 
-.navlist{
+.navlist-left{
   background-color: black;
   list-style: none;
   list-style-position: inside;
-  float: left;
-  width: 100%;
   margin: 0px;
   padding: 0px;
+  float:left;
 }
 
-.navitem{
+.navitem-l{
   display: inline-block;
   margin-left: 0px;
   padding-left:0px;
   padding-right:5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: white;
 }
 
-.intro{
-  width: 80%;
-  margin: 100px;
+.navlist-right{
+  background-color: black;
+  list-style: none;
+  list-style-position: inside;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.navitem-r{
+  display: inline-block;
+  margin-left: 0px;
+  padding-left:0px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navlink{
+  text-decoration: none;
+  color:white;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.navlink-title{
+  text-decoration: none;
+  color:white;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+#logo-main {
+  width: 100%;
+  max-width: 612px;
+}
+
+.main-content {
+  margin: 50px 100px 100px 100px;
+}
+
+.intro {
   padding: 10px;
   float: none;
-  background-color: #D73F09; /*Might need to change*/
+  text-align: center;
+}
+
+.missionStatement{
   color: white;
   text-align: center;
+  font-size: 24px;
+}
+
+.applyBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.heading-titles {
+  font-size: 1.25em;
+  margin: 55px 0 5px 0;
+}
+
+#about{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-reg-form{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+}
+
+.container-reg-video{
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}
+
+.list-left{
+  list-style-position: inside;
+  margin: 10px;
+  padding: 5px;
+  float:left;
 }
