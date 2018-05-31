@@ -90,6 +90,11 @@ html, body{
   max-width: 612px;
 }
 
+#team-picture {
+  width: 100%;
+  max-width: 612px;
+}
+
 .main-content {
   margin: 50px 100px 100px 100px;
 }
